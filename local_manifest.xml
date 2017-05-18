@@ -4,9 +4,8 @@
     <!-- device tree -->	
     <project path="device/motorola/surnia" name="CarlosArriagaCM/android_device_motorola_surnia" remote="github" revision="n-mr2" />
     <project path="device/motorola/msm8916-common" name="CarlosArriagaCM/android_device_motorola_msm8916-common" remote="github" revision="n-mr2" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     <!-- kernel -->
-    <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
+    <project path="kernel/motorola/msm8916" name="sultanqasim/android_kernel_motorola_msm8916" remote="github" revision="squid_nougat" />
     <!-- vendor -->
     <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
     <!--extras-->		
