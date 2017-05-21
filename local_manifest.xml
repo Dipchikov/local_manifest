@@ -2,8 +2,8 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/motorola/surnia" name="CarlosArriagaCM/android_device_motorola_surnia" remote="github" revision="n-mr2" />
-    <project path="device/motorola/msm8916-common" name="CarlosArriagaCM/android_device_motorola_msm8916-common" remote="github" revision="n-mr2" />
+    <project path="device/motorola/surnia" name="CarlosArriagaCM/android_device_motorola_surnia" remote="github" revision="du-n" />
+    <project path="device/motorola/msm8916-common" name="CarlosArriagaCM/android_device_motorola_msm8916-common" remote="github" revision="du-n" />
     <!-- kernel -->
     <project path="kernel/motorola/msm8916" name="CarlosArriagaCM/kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
     <!-- vendor -->
@@ -12,4 +12,13 @@
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
     <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+    <!-- CAF -->
+    <project path="system/qcom" name="DirtyUnicorns/android_system_qcom" remote="github" revision="n7x-caf" />
+    <project path="packages/apps/FMRadio" name="DirtyUnicorns/android_packages_apps_FMRadio" remote="github" revision="n7x-caf" />
+    <project path="hardware/qcom/fm" name="DirtyUnicorns/android_hardware_qcom_fm" remote="github" revision="n7x-caf" />
+    <project path="hardware/qcom/media" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="n7x-caf-8916" />
+    <project path="hardware/qcom/display" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="n7x-caf-8916" />
+    <project path="hardware/qcom/audio" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="n7x-caf-8916" />
+    <project path="external/bson" name="DirtyUnicorns/android_external_bson" remote="github" revision="n7x-caf" />
+    
 </manifest>
