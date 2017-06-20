@@ -2,14 +2,15 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/wingtech/wt88047" name="NeoDarkness/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
-    <project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
+    <project path="device/motorola/surnia" name="LineageOS/android_device_motorola_surnia" remote="github" revision="cm-14.1" />
+    <project path="device/motorola/msm8916-common" name="LineageOS/android_device_motorola_msm8916-common" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="nicknitewolf/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
+    <project path="kernel/motorola/msm8916" name="CarlosArriagaCM/kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
     <!-- vendor -->
     <project path="vendor/wingtech" name="NeoDarkness/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
     <!--extras-->		
-    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
+    <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
 </manifest>
